@@ -86,9 +86,8 @@ medantadict = {
 medantadatfrm = pd.DataFrame(medantadict)
 st.dataframe(medantadatfrm)
 st.write('')
-mednk = 'https://www.medanta.org/'
-if st.button("Medanta's Official Site"):
-    wb.open_new_tab(mednk)
+mednk = [!["Medanta's Site"]'https://www.medanta.org/']
+st.markdown('**'+mednk+'**')
 st.write('')
 st.write('')
 st.markdown('2. **Indraprashta Apollo Hospital**')
