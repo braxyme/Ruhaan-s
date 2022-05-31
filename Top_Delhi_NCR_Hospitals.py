@@ -86,8 +86,8 @@ medantadict = {
 medantadatfrm = pd.DataFrame(medantadict)
 st.dataframe(medantadatfrm)
 st.write('')
-link = f"([Medanta's Site]{('https://www.medanta.org/')})"
-st.markdown(link, unsafe_allow_html=True)
+mednk = f"[Medanta's Site]{('https://www.medanta.org/')}"
+st.markdown(mednk, unsafe_allow_html=True)
 st.write('')
 st.write('')
 st.markdown('2. **Indraprashta Apollo Hospital**')
