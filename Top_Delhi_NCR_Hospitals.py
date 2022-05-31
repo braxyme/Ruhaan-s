@@ -86,7 +86,7 @@ medantadict = {
 medantadatfrm = pd.DataFrame(medantadict)
 st.dataframe(medantadatfrm)
 st.write('')
-mednk = f"[Medanta's Site]{('https://www.medanta.org/')}"
+mednk = "[Medanta's Site]('https://www.medanta.org/')"
 st.markdown(mednk, unsafe_allow_html=True)
 st.write('')
 st.write('')
