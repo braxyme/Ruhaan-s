@@ -18,7 +18,7 @@ def set_bg_hack_url():
         f"""
          <style>
          .stApp {{
-             background-color:blue;
+             background-color: light blue;
              background-size: 1550px 800px;
              background-repeat: no-repeat;
          }}
