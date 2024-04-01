@@ -18,7 +18,7 @@ def set_bg_hack_url():
         f"""
          <style>
          .stApp {{
-             background: url("https://hubpublishing.co.uk/wp-content/uploads/2019/11/lighter-life.jpg");
+             background-color:black;
              background-size: 1550px 800px;
              background-repeat: no-repeat;
          }}
